@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kebijakan Privasi aplikasi MitraPOS">
+  <title>Kebijakan Privasi MitraPOS</title>
+  <style>
+    body { color: #172033; font: 16px/1.65 system-ui, sans-serif; margin: 0 auto; max-width: 760px; padding: 32px 20px 64px; }
+    h1, h2 { color: #075e45; line-height: 1.25; }
+    a { color: #087f5b; }
+    .updated { color: #64748b; }
+  </style>
+</head>
+<body>
+  <h1>Kebijakan Privasi MitraPOS</h1>
+  <p class="updated">Terakhir diperbarui: 1 Juli 2026</p>
+  <p>Kebijakan ini menjelaskan cara aplikasi MitraPOS mengakses dan menangani data. Pertanyaan privasi dapat dikirim ke <a href="mailto:jemmyalie9@gmail.com">jemmyalie9@gmail.com</a>.</p>
+  <h2>Data yang diproses</h2>
+  <p>MitraPOS memproses data yang dimasukkan pengguna untuk menjalankan fungsi kasir, termasuk profil toko, produk dan gambar produk, kategori, stok, pelanggan, transaksi, meja, lantai, session kasir, laporan, metode pembayaran, dan pengaturan printer. Data pelanggan dapat mencakup nama, nomor telepon, email, alamat, dan catatan apabila pengguna memilih untuk memasukkannya.</p>
+  <p>Aplikasi juga memproses data employee lokal berupa nama, email opsional, role, hak akses, status akun, histori login, serta audit aktivitas. PIN dan recovery code tidak disimpan sebagai teks asli; aplikasi menyimpan salted cryptographic hash pada perangkat.</p>
+  <h2>Penyimpanan, pengumpulan, dan pembagian</h2>
+  <p>Data operasional, akun employee, session, audit log, PIN hash, dan recovery hash disimpan secara lokal pada perangkat. Pengembang MitraPOS tidak mengumpulkan, mengirim, menjual, atau membagikan data tersebut ke server pengembang maupun pihak ketiga.</p>
+  <p>Ekspor laporan, pembuatan backup, restore, atau pembagian file hanya dilakukan atas tindakan pengguna. Pengguna menentukan sendiri aplikasi atau lokasi tujuan pembagian. Setelah file dibagikan atau disimpan di luar MitraPOS, file tersebut berada di bawah kendali pengguna dan penyedia tujuan yang dipilih.</p>
+  <h2>Akses perangkat</h2>
+  <p>Akses foto digunakan hanya ketika pengguna memilih gambar produk. Izin Bluetooth atau Perangkat di sekitar digunakan untuk menemukan dan menghubungkan printer termal. Pada Android 11 dan versi lebih lama, sistem Android dapat memerlukan izin lokasi untuk pemindaian Bluetooth; MitraPOS tidak menggunakan izin tersebut untuk melacak atau mengumpulkan lokasi.</p>
+  <h2>Keamanan</h2>
+  <p>PIN numerik diproses menggunakan salted PBKDF2 hash dan tidak dikirim ke server. Aplikasi menyediakan lockout setelah percobaan PIN gagal dan dapat mengunci sesi login setelah tidak aktif. Karena seluruh data disimpan lokal, pengguna tetap bertanggung jawab menjaga keamanan perangkat, recovery code, dan file backup. Simpan backup hanya di lokasi tepercaya.</p>
+  <h2>Retensi dan penghapusan</h2>
+  <p>Data dipertahankan di perangkat sampai pengguna mengubah atau menghapusnya, mengarsipkan data, memilih fitur Hapus Semua Data Lokal, menghapus data aplikasi melalui pengaturan Android, atau menghapus instalasi aplikasi. Owner dapat menghapus employee yang belum pernah digunakan atau mengarsipkan employee yang memiliki histori.</p>
+  <p>File backup atau ekspor yang telah dibuat harus dihapus secara terpisah dari lokasi penyimpanannya. MitraPOS tidak memiliki akses untuk menghapus salinan file yang sudah dipindahkan atau dibagikan oleh pengguna.</p>
+  <h2>Akun offline</h2>
+  <p>Owner dan employee adalah identitas lokal yang hanya berlaku pada satu instalasi perangkat. MitraPOS tidak membuat akun online, tidak menyediakan sinkronisasi lintas perangkat, dan tidak mengoperasikan layanan akun pada server pengembang.</p>
+  <h2>Anak-anak</h2>
+  <p>MitraPOS merupakan alat operasional bisnis untuk pengguna dewasa dan tidak ditujukan untuk anak-anak.</p>
+  <h2>Perubahan kebijakan</h2>
+  <p>Kebijakan ini dapat diperbarui ketika fungsi atau praktik data aplikasi berubah. Tanggal pembaruan terbaru akan ditampilkan pada halaman ini.</p>
+</body>
+</html>
